@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Highest';
+  src: url(fonts/Highest\ PERSONAL\ USE\ ONLY!.ttf);
+}
+
+@font-face {
+  font-family: 'Starborn';
+  src: url(fonts/Starborn.ttf);
+}
+
+@font-face {
+    font-family: 'JORDAN';
+    src: url(fonts/KGTeacherJordan.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 30%;
+    height: 20%;
+    margin-left: -15%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    font-family: 'Starborn';
+}
+
+nav ul{
+    display: flex;
+    justify-content:end;
+    gap: 10%;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10%;
+}
+
+nav ul li a:hover{
+    color: yellow;
+    padding: 10%;
+    font-size: 30px;
+}
+
+/*A propos*/
+
+h1{
+    text-align: center;
+    font-family: 'Highest', sans-serif;
+    font-size: 80px;
+    color: black;
+    margin-top: 0;
+}
+
+.container img{
+    width: 20%;
+    height: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.container p{
+    font-family: 'JORDAN';
+    font-size: 25px;
+}
+/*Competences*/
+
+#competences{
+    background-color: black;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+#competences h1{
+    color: white;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.max{
+    width: 400px;
+    background-color: grey;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0px 50px;
+}
+
+.valeur{
+    width: 70%;
+    background-color: yellow;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.valeur1{
+    width: 60%;
+    background-color: red;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.valeur2{
+    width: 30%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.valeur3{
+    width: 20%;
+    background-color: green;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/*Contact*/
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 60px;
+}
+
+.reseaux img{
+    width: 5%;
+    height:5%;
+    margin-top: 5%;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.reseaux a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Starborn';
+    align-items: center;
+}
+
+.reseaux a:hover{
+    color: orange;
+    font-size: 30px;
+}
+
+.form fieldset{
+   background-color: grey;
+   border-radius: 10%;
+   font-family: 'JORDAN';
+   font-size: 30px;
+}
