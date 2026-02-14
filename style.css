@@ -30,6 +30,8 @@ header{
     align-items: center;
     background-color: black;
     font-family: 'Starborn';
+    position:fixed;
+    width: 100%;
 }
 
 nav ul{
